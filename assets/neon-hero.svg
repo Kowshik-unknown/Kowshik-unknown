@@ -1,0 +1,327 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-label="Neon arcade hero banner for Kowshik">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#04050a"/>
+      <stop offset="0.45" stop-color="#0a0717"/>
+      <stop offset="1" stop-color="#05070f"/>
+    </linearGradient>
+    <radialGradient id="glowCyan" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0.34"/>
+      <stop offset="0.55" stop-color="#00f5ff" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#00f5ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowMag" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0.3"/>
+      <stop offset="0.55" stop-color="#ff2bd6" stop-opacity="0.07"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="titleFill" x1="380" y1="120" x2="820" y2="230" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.45" stop-color="#dffcff"/>
+      <stop offset="1" stop-color="#00e5ff"/>
+    </linearGradient>
+    <linearGradient id="frameBorder" x1="0" y1="0" x2="1200" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#8a5cff" stop-opacity="0.35"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0.55"/>
+    </linearGradient>
+    <linearGradient id="lineFade" x1="24" y1="0" x2="1176" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#00f5ff" stop-opacity="0.5"/>
+      <stop offset="0.5" stop-color="#ff2bd6" stop-opacity="0.5"/>
+      <stop offset="0.8" stop-color="#8a5cff" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#8a5cff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="horizon" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f5ff" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="chipCyan" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#00f5ff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="chipMag" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff2bd6" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="chipViolet" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#8a5cff" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#8a5cff" stop-opacity="0.02"/>
+    </linearGradient>
+    <linearGradient id="sweepGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#00f5ff" stop-opacity="0.1"/>
+      <stop offset="1" stop-color="#00f5ff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="startPill" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#8a5cff" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="neonCyan" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3.5" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="neonMag" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="neonLime" x="-60%" y="-60%" width="220%" height="220%">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#000000" opacity="0.55"/>
+    </pattern>
+    <clipPath id="frameClip">
+      <rect x="1" y="1" width="1198" height="398" rx="22"/>
+    </clipPath>
+
+    <style>
+      .mono { font-family: 'Courier New', ui-monospace, monospace; }
+      .title { font-family: 'Arial Black', 'Segoe UI', Ubuntu, sans-serif; font-weight: 900; font-size: 118px; letter-spacing: 6px; }
+      .glitch-mag {
+        animation: glitchMag 4.6s infinite steps(1);
+      }
+      .glitch-cyan {
+        animation: glitchCyan 4.6s infinite steps(1);
+      }
+      .glitch-main {
+        animation: glitchMain 4.6s infinite steps(1);
+      }
+      .blink { animation: blink 1.4s steps(1) infinite; }
+      .blink-slow { animation: blink 2.4s steps(1) infinite; }
+      .pulse-dot { animation: pulseDot 1.8s ease-in-out infinite; }
+      .start-pulse { animation: startPulse 2.2s ease-in-out infinite; }
+      .ring-spin { transform-origin: 600px 196px; animation: ringSpin 70s linear infinite; }
+      @keyframes glitchMag {
+        0%, 86%, 100% { transform: translate(0, 0); opacity: 0.34; }
+        87% { transform: translate(-7px, 2px); opacity: 0.62; }
+        88% { transform: translate(5px, -2px); opacity: 0.5; }
+        89% { transform: translate(-3px, 1px); opacity: 0.58; }
+        90% { transform: translate(2px, -1px); opacity: 0.42; }
+        91% { transform: translate(0, 0); opacity: 0.34; }
+      }
+      @keyframes glitchCyan {
+        0%, 86%, 100% { transform: translate(0, 0); opacity: 0.4; }
+        87% { transform: translate(6px, -2px); opacity: 0.65; }
+        88% { transform: translate(-5px, 2px); opacity: 0.55; }
+        89% { transform: translate(3px, -1px); opacity: 0.6; }
+        90% { transform: translate(-2px, 1px); opacity: 0.45; }
+        91% { transform: translate(0, 0); opacity: 0.4; }
+      }
+      @keyframes glitchMain {
+        0%, 86%, 100% { transform: translate(0, 0); opacity: 1; }
+        87% { transform: translate(2px, -1px); opacity: 0.94; }
+        88% { transform: translate(-2px, 1px); opacity: 0.97; }
+        89% { transform: translate(1px, 0); opacity: 0.95; }
+        90% { transform: translate(0, 0); opacity: 1; }
+      }
+      @keyframes blink {
+        0%, 49% { opacity: 1; }
+        50%, 100% { opacity: 0.18; }
+      }
+      @keyframes pulseDot {
+        0%, 100% { opacity: 1; }
+        50% { opacity: 0.25; }
+      }
+      @keyframes startPulse {
+        0%, 100% { opacity: 0.75; }
+        50% { opacity: 1; }
+      }
+      @keyframes ringSpin {
+        from { transform: rotate(0deg); }
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#frameClip)">
+    <rect width="1200" height="400" fill="url(#bg)"/>
+    <ellipse cx="230" cy="345" rx="460" ry="210" fill="url(#glowCyan)"/>
+    <ellipse cx="980" cy="120" rx="420" ry="230" fill="url(#glowMag)"/>
+    <ellipse cx="600" cy="210" rx="330" ry="190" fill="url(#glowCyan)" opacity="0.35"/>
+
+    <!-- giant ghost number -->
+    <text x="1140" y="342" font-family="'Arial Black', sans-serif" font-size="230" font-weight="900" text-anchor="end" fill="none" stroke="#7fe9f7" stroke-width="1" opacity="0.05">01</text>
+
+    <!-- orbit rings -->
+    <circle cx="600" cy="196" r="178" fill="none" stroke="#00f5ff" stroke-width="1" opacity="0.13"/>
+    <circle cx="600" cy="196" r="206" fill="none" stroke="#ff2bd6" stroke-width="1" stroke-dasharray="3 14" opacity="0.22" class="ring-spin"/>
+
+    <!-- perspective grid floor -->
+    <g opacity="0.5">
+      <line x1="0" y1="292" x2="1200" y2="292" stroke="url(#horizon)" stroke-width="1.6"/>
+      <line x1="0" y1="308" x2="1200" y2="308" stroke="#00f5ff" stroke-width="0.7" opacity="0.28"/>
+      <line x1="0" y1="328" x2="1200" y2="328" stroke="#ff2bd6" stroke-width="0.7" opacity="0.24"/>
+      <line x1="0" y1="352" x2="1200" y2="352" stroke="#00f5ff" stroke-width="0.7" opacity="0.2"/>
+      <line x1="0" y1="382" x2="1200" y2="382" stroke="#8a5cff" stroke-width="0.7" opacity="0.22"/>
+      <g opacity="0.32">
+        <line x1="600" y1="292" x2="600" y2="400" stroke="#00f5ff" stroke-width="0.7"/>
+        <line x1="600" y1="292" x2="470" y2="400" stroke="#00f5ff" stroke-width="0.6"/>
+        <line x1="600" y1="292" x2="730" y2="400" stroke="#00f5ff" stroke-width="0.6"/>
+        <line x1="600" y1="292" x2="320" y2="400" stroke="#ff2bd6" stroke-width="0.55"/>
+        <line x1="600" y1="292" x2="880" y2="400" stroke="#ff2bd6" stroke-width="0.55"/>
+        <line x1="600" y1="292" x2="150" y2="400" stroke="#8a5cff" stroke-width="0.5"/>
+        <line x1="600" y1="292" x2="1050" y2="400" stroke="#8a5cff" stroke-width="0.5"/>
+        <line x1="600" y1="292" x2="-40" y2="400" stroke="#00f5ff" stroke-width="0.45"/>
+        <line x1="600" y1="292" x2="1240" y2="400" stroke="#00f5ff" stroke-width="0.45"/>
+      </g>
+    </g>
+
+    <!-- pixel aliens -->
+    <g opacity="0.85">
+      <g transform="translate(66,150)">
+        <g>
+          <rect x="8" y="0" width="4" height="4" fill="#ff2bd6"/>
+          <rect x="28" y="0" width="4" height="4" fill="#ff2bd6"/>
+          <rect x="4" y="4" width="4" height="4" fill="#ff2bd6"/>
+          <rect x="12" y="4" width="4" height="4" fill="#ff2bd6"/>
+          <rect x="24" y="4" width="4" height="4" fill="#ff2bd6"/>
+          <rect x="32" y="4" width="4" height="4" fill="#ff2bd6"/>
+          <rect x="0" y="8" width="40" height="8" fill="#ff2bd6"/>
+          <rect x="4" y="16" width="6" height="4" fill="#04050a"/>
+          <rect x="30" y="16" width="6" height="4" fill="#04050a"/>
+          <rect x="0" y="20" width="12" height="4" fill="#ff2bd6"/>
+          <rect x="16" y="20" width="8" height="4" fill="#ff2bd6"/>
+          <rect x="28" y="20" width="12" height="4" fill="#ff2bd6"/>
+          <rect x="4" y="24" width="8" height="4" fill="#ff2bd6"/>
+          <rect x="28" y="24" width="8" height="4" fill="#ff2bd6"/>
+          <animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="3.2s" repeatCount="indefinite" additive="replace"/>
+        </g>
+        <ellipse cx="20" cy="34" rx="20" ry="3" fill="#ff2bd6" opacity="0.18"/>
+      </g>
+      <g transform="translate(1096,166)" opacity="0.75">
+        <rect x="8" y="0" width="4" height="4" fill="#00f5ff"/>
+        <rect x="28" y="0" width="4" height="4" fill="#00f5ff"/>
+        <rect x="0" y="4" width="40" height="8" fill="#00f5ff"/>
+        <rect x="4" y="12" width="6" height="4" fill="#04050a"/>
+        <rect x="30" y="12" width="6" height="4" fill="#04050a"/>
+        <rect x="0" y="16" width="12" height="4" fill="#00f5ff"/>
+        <rect x="16" y="16" width="8" height="4" fill="#00f5ff"/>
+        <rect x="28" y="16" width="12" height="4" fill="#00f5ff"/>
+        <rect x="4" y="20" width="8" height="4" fill="#00f5ff"/>
+        <rect x="28" y="20" width="8" height="4" fill="#00f5ff"/>
+        <animateTransform attributeName="transform" type="translate" values="0 0;0 8;0 0" dur="4s" repeatCount="indefinite"/>
+      </g>
+    </g>
+
+    <!-- ambient particles -->
+    <g>
+      <circle cx="180" cy="92" r="2" fill="#00f5ff">
+        <animate attributeName="opacity" values="0;0.9;0" dur="3.4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="330" cy="300" r="1.6" fill="#ff2bd6">
+        <animate attributeName="opacity" values="0;0.8;0" dur="4.2s" repeatCount="indefinite" begin="0.6s"/>
+      </circle>
+      <circle cx="880" cy="86" r="2.2" fill="#b6ff3b">
+        <animate attributeName="opacity" values="0;0.9;0" dur="5s" repeatCount="indefinite" begin="1.2s"/>
+      </circle>
+      <circle cx="1040" cy="300" r="1.8" fill="#00f5ff">
+        <animate attributeName="opacity" values="0;0.8;0" dur="3.8s" repeatCount="indefinite" begin="0.3s"/>
+      </circle>
+      <circle cx="420" cy="126" r="1.4" fill="#8a5cff">
+        <animate attributeName="opacity" values="0;0.9;0" dur="4.6s" repeatCount="indefinite" begin="2s"/>
+      </circle>
+      <circle cx="760" cy="330" r="1.5" fill="#ff2bd6">
+        <animate attributeName="opacity" values="0;0.7;0" dur="4s" repeatCount="indefinite" begin="1.5s"/>
+      </circle>
+    </g>
+
+    <!-- top HUD -->
+    <g>
+      <circle cx="32" cy="33" r="4" fill="#00f5ff" class="pulse-dot" filter="url(#neonCyan)"/>
+      <text x="46" y="37" class="mono" font-size="11" letter-spacing="3" fill="#7fe9f7">PLAYER_01 // ONLINE</text>
+      <text x="1176" y="37" class="mono" font-size="10" letter-spacing="2.5" fill="#5c7090" text-anchor="end">NEON_OS v2.0.26 // 60 FPS</text>
+      <line x1="24" y1="50" x2="1176" y2="50" stroke="url(#lineFade)" stroke-width="1"/>
+    </g>
+
+    <!-- title -->
+    <g>
+      <text x="606" y="218" class="title glitch-mag" text-anchor="middle" fill="#ff2bd6" filter="url(#neonMag)">KOWSHIK</text>
+      <text x="594" y="218" class="title glitch-cyan" text-anchor="middle" fill="#00f5ff" filter="url(#neonCyan)">KOWSHIK</text>
+      <text x="600" y="218" class="title glitch-main" text-anchor="middle" fill="url(#titleFill)" filter="url(#softGlow)">KOWSHIK</text>
+    </g>
+
+    <!-- subtitle -->
+    <g class="mono" text-anchor="middle">
+      <text x="600" y="262" font-size="15" letter-spacing="4.5" fill="#9feaf5">FRONT-END DEVELOPER <tspan fill="#ff2bd6">//</tspan> AI &amp; CLOUD EXPLORER</text>
+    </g>
+
+    <!-- chips -->
+    <g class="mono" font-size="10.5" letter-spacing="1.8" text-anchor="middle">
+      <g>
+        <rect x="371" y="284" width="154" height="30" rx="15" fill="url(#chipCyan)" stroke="#00f5ff" stroke-opacity="0.5"/>
+        <text x="448" y="303" fill="#b7f7ff">HTML5 · CSS3 · JS</text>
+      </g>
+      <g>
+        <rect x="539" y="284" width="142" height="30" rx="15" fill="url(#chipMag)" stroke="#ff2bd6" stroke-opacity="0.5"/>
+        <text x="610" y="303" fill="#ffc4ef">GCP · FIREBASE</text>
+      </g>
+      <g>
+        <rect x="695" y="284" width="144" height="30" rx="15" fill="url(#chipViolet)" stroke="#8a5cff" stroke-opacity="0.55"/>
+        <text x="767" y="303" fill="#d8c8ff">GENERATIVE AI</text>
+      </g>
+    </g>
+
+    <!-- bottom HUD -->
+    <g>
+      <g transform="translate(48,352)">
+        <circle cx="0" cy="0" r="9" fill="#05070f" stroke="#b6ff3b" stroke-width="1.5" filter="url(#neonLime)"/>
+        <text x="0" y="3.5" class="mono" font-size="9" font-weight="700" text-anchor="middle" fill="#b6ff3b">K</text>
+      </g>
+      <text x="68" y="358" class="mono blink" font-size="11" letter-spacing="2.5" fill="#b6ff3b">INSERT COIN</text>
+
+      <g class="start-pulse">
+        <rect x="494" y="340" width="212" height="36" rx="18" fill="#00f5ff" fill-opacity="0.05" stroke="url(#startPill)" stroke-width="1.2"/>
+        <polygon points="524,350 524,366 538,358" fill="#00f5ff"/>
+        <text x="548" y="363" class="mono" font-size="11" letter-spacing="3" fill="#e8feff">PRESS START</text>
+      </g>
+
+      <text x="1176" y="358" class="mono" font-size="11" letter-spacing="2.5" text-anchor="end">
+        <tspan fill="#5c7090">HI-SCORE </tspan><tspan fill="#eafcff" font-weight="700">999,999</tspan>
+      </text>
+    </g>
+
+    <!-- scanlines + sweep -->
+    <rect width="1200" height="400" fill="url(#scan)" opacity="0.3"/>
+    <rect x="0" y="-90" width="1200" height="90" fill="url(#sweepGrad)">
+      <animate attributeName="y" values="-90;400" dur="7s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- frame + corner brackets -->
+  <rect x="1" y="1" width="1198" height="398" rx="22" fill="none" stroke="url(#frameBorder)" stroke-width="1.6"/>
+  <g stroke="#00f5ff" stroke-width="1.6" opacity="0.65" fill="none">
+    <path d="M22 34 V22 H40"/>
+    <path d="M1160 22 H1178 V34"/>
+    <path d="M22 366 V378 H40"/>
+    <path d="M1160 378 H1178 V366"/>
+  </g>
+  <g stroke="#ff2bd6" stroke-width="1.6" opacity="0.5" fill="none">
+    <path d="M600 356 H588"/>
+    <path d="M600 356 H612"/>
+  </g>
+</svg>

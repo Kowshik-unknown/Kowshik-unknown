@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 274" width="1200" height="274" role="img" aria-label="Featured projects level select">
+  <defs>
+    <filter id="pjGlow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="2.4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .mono { font-family: 'Courier New', ui-monospace, monospace; }
+      .ttl { font-family: 'Arial Black','Segoe UI',Ubuntu,sans-serif; font-weight: 900; letter-spacing: 1.6px; }
+    </style>
+  </defs>
+    <g transform="translate(24,0)">
+      <rect width="364" height="250" rx="12" fill="#080d18" stroke="#b6ff3b" stroke-opacity="0.3" stroke-width="1.2"/>
+      <rect width="364" height="3" rx="1.5" fill="#b6ff3b" opacity="0.8" filter="url(#pjGlow)"/>
+      <rect x="0" y="3" width="364" height="30" fill="#b6ff3b" fill-opacity="0.05"/>
+      <g class="mono">
+        <text x="26" y="22" font-size="7.5" letter-spacing="2.2" fill="#b6ff3b" fill-opacity="0.85">AI STUDY COMPANION</text>
+        <text x="338" y="22" font-size="7.5" letter-spacing="1.6" text-anchor="end" fill="#5c7090">LV.01</text>
+      </g>
+      <text x="26" y="66" class="ttl" font-size="21" fill="#f2fbff">STUDY TIMER + AI</text>
+      <rect x="26" y="76" width="46" height="2" rx="1" fill="#b6ff3b" opacity="0.9"/>
+      <g class="mono">
+        <text x="26" y="100" font-size="8.6" letter-spacing="0.2" fill="#93a4bd">
+          <tspan x="26" dy="0">Offline-first study app that solves math locally and</tspan>
+          <tspan x="26" dy="15">routes science queries to Gemini AI — with a gamified 3D</tspan>
+          <tspan x="26" dy="15">focus garden, flashcards, and instant notes from YouTube</tspan>
+          <tspan x="26" dy="15">links.</tspan>
+        </text>
+      </g>
+      <rect x="26" y="196" width="52" height="19" rx="4" fill="#b6ff3b" fill-opacity="0.08" stroke="#b6ff3b" stroke-opacity="0.35"/><text x="52" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#b6ff3b" fill-opacity="0.9">PYTHON</text><rect x="86" y="196" width="74" height="19" rx="4" fill="#b6ff3b" fill-opacity="0.08" stroke="#b6ff3b" stroke-opacity="0.35"/><text x="123" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#b6ff3b" fill-opacity="0.9">GEMINI AI</text><rect x="168" y="196" width="45" height="19" rx="4" fill="#b6ff3b" fill-opacity="0.08" stroke="#b6ff3b" stroke-opacity="0.35"/><text x="190" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#b6ff3b" fill-opacity="0.9">3D UI</text>
+      <g class="mono" font-size="8.5" letter-spacing="1.8">
+        <rect x="26" y="224" width="92" height="0" fill="none"/>
+        <text x="26" y="236" fill="#eafcff">VIEW REPO <tspan fill="#b6ff3b">↗</tspan></text>
+        <text x="338" y="236" text-anchor="end" fill="#b6ff3b">START ▶</text>
+      </g>
+      <path d="M330 8 H356 V34" fill="none" stroke="#b6ff3b" stroke-opacity="0.55" stroke-width="1.2"/>
+    </g>
+    <g transform="translate(412,0)">
+      <rect width="364" height="250" rx="12" fill="#080d18" stroke="#00f5ff" stroke-opacity="0.3" stroke-width="1.2"/>
+      <rect width="364" height="3" rx="1.5" fill="#00f5ff" opacity="0.8" filter="url(#pjGlow)"/>
+      <rect x="0" y="3" width="364" height="30" fill="#00f5ff" fill-opacity="0.05"/>
+      <g class="mono">
+        <text x="26" y="22" font-size="7.5" letter-spacing="2.2" fill="#00f5ff" fill-opacity="0.85">MODERN CV EXPERIENCE</text>
+        <text x="338" y="22" font-size="7.5" letter-spacing="1.6" text-anchor="end" fill="#5c7090">LV.02</text>
+      </g>
+      <text x="26" y="66" class="ttl" font-size="21" fill="#f2fbff">ASHOKA CV</text>
+      <rect x="26" y="76" width="46" height="2" rx="1" fill="#00f5ff" opacity="0.9"/>
+      <g class="mono">
+        <text x="26" y="100" font-size="8.6" letter-spacing="0.2" fill="#93a4bd">
+          <tspan x="26" dy="0">A CV for Emperor Ashoka rebuilt in a modern design</tspan>
+          <tspan x="26" dy="15">language, packed with slick hover effects and motion</tspan>
+          <tspan x="26" dy="15">details generated with AI-assisted workflows.</tspan>
+        </text>
+      </g>
+      <rect x="26" y="196" width="81" height="19" rx="4" fill="#00f5ff" fill-opacity="0.08" stroke="#00f5ff" stroke-opacity="0.35"/><text x="66" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#00f5ff" fill-opacity="0.9">TYPESCRIPT</text><rect x="115" y="196" width="52" height="19" rx="4" fill="#00f5ff" fill-opacity="0.08" stroke="#00f5ff" stroke-opacity="0.35"/><text x="141" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#00f5ff" fill-opacity="0.9">MOTION</text><rect x="175" y="196" width="67" height="19" rx="4" fill="#00f5ff" fill-opacity="0.08" stroke="#00f5ff" stroke-opacity="0.35"/><text x="208" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#00f5ff" fill-opacity="0.9">HOVER FX</text>
+      <g class="mono" font-size="8.5" letter-spacing="1.8">
+        <rect x="26" y="224" width="92" height="0" fill="none"/>
+        <text x="26" y="236" fill="#eafcff">VIEW REPO <tspan fill="#00f5ff">↗</tspan></text>
+        <text x="338" y="236" text-anchor="end" fill="#00f5ff">START ▶</text>
+      </g>
+      <path d="M330 8 H356 V34" fill="none" stroke="#00f5ff" stroke-opacity="0.55" stroke-width="1.2"/>
+    </g>
+    <g transform="translate(800,0)">
+      <rect width="364" height="250" rx="12" fill="#080d18" stroke="#ff2bd6" stroke-opacity="0.3" stroke-width="1.2"/>
+      <rect width="364" height="3" rx="1.5" fill="#ff2bd6" opacity="0.8" filter="url(#pjGlow)"/>
+      <rect x="0" y="3" width="364" height="30" fill="#ff2bd6" fill-opacity="0.05"/>
+      <g class="mono">
+        <text x="26" y="22" font-size="7.5" letter-spacing="2.2" fill="#ff2bd6" fill-opacity="0.85">OFFLINE CRYPTO WALLET</text>
+        <text x="338" y="22" font-size="7.5" letter-spacing="1.6" text-anchor="end" fill="#5c7090">LV.03</text>
+      </g>
+      <text x="26" y="66" class="ttl" font-size="21" fill="#f2fbff">UNKNOWN-FT11</text>
+      <rect x="26" y="76" width="46" height="2" rx="1" fill="#ff2bd6" opacity="0.9"/>
+      <g class="mono">
+        <text x="26" y="100" font-size="8.6" letter-spacing="0.2" fill="#93a4bd">
+          <tspan x="26" dy="0">Secure-element smart-card wallet enabling</tspan>
+          <tspan x="26" dy="15">peer-to-offline merchant transactions with cryptographic</tspan>
+          <tspan x="26" dy="15">counter evaluation and delayed batch settlement.</tspan>
+        </text>
+      </g>
+      <rect x="26" y="196" width="81" height="19" rx="4" fill="#ff2bd6" fill-opacity="0.08" stroke="#ff2bd6" stroke-opacity="0.35"/><text x="66" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#ff2bd6" fill-opacity="0.9">JAVASCRIPT</text><rect x="115" y="196" width="52" height="19" rx="4" fill="#ff2bd6" fill-opacity="0.08" stroke="#ff2bd6" stroke-opacity="0.35"/><text x="141" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#ff2bd6" fill-opacity="0.9">CRYPTO</text><rect x="175" y="196" width="81" height="19" rx="4" fill="#ff2bd6" fill-opacity="0.08" stroke="#ff2bd6" stroke-opacity="0.35"/><text x="216" y="209.5" class="mono" font-size="7.5" letter-spacing="1.1" text-anchor="middle" fill="#ff2bd6" fill-opacity="0.9">SMART CARD</text>
+      <g class="mono" font-size="8.5" letter-spacing="1.8">
+        <rect x="26" y="224" width="92" height="0" fill="none"/>
+        <text x="26" y="236" fill="#eafcff">VIEW REPO <tspan fill="#ff2bd6">↗</tspan></text>
+        <text x="338" y="236" text-anchor="end" fill="#ff2bd6">START ▶</text>
+      </g>
+      <path d="M330 8 H356 V34" fill="none" stroke="#ff2bd6" stroke-opacity="0.55" stroke-width="1.2"/>
+    </g>
+</svg>
