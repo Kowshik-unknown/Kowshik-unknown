@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 40" width="1200" height="40" role="img" aria-label="Neon divider">
+  <defs>
+    <linearGradient id="dvLine" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="0.2" stop-color="#00f5ff" stop-opacity="0.55"/>
+      <stop offset="0.5" stop-color="#8a5cff" stop-opacity="0.75"/>
+      <stop offset="0.8" stop-color="#ff2bd6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="dvPulse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f5ff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#eafcff" stop-opacity="1"/>
+      <stop offset="1" stop-color="#ff2bd6" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="dvGlow" x="-70%" y="-70%" width="240%" height="240%">
+      <feGaussianBlur stdDeviation="2.6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .dv-run { animation: dvRun 6s linear infinite; }
+      .dv-run2 { animation: dvRun 6s linear infinite; animation-delay: -3s; }
+      @keyframes dvRun {
+        0% { transform: translateX(-160px); opacity: 0; }
+        12% { opacity: 1; }
+        88% { opacity: 1; }
+        100% { transform: translateX(1360px); opacity: 0; }
+      }
+    </style>
+  </defs>
+  <line x1="0" y1="20" x2="1200" y2="20" stroke="url(#dvLine)" stroke-width="1.4"/>
+  <g filter="url(#dvGlow)">
+    <rect x="0" y="18.8" width="160" height="2.4" rx="1.2" fill="url(#dvPulse)" class="dv-run"/>
+    <rect x="0" y="18.8" width="110" height="2.4" rx="1.2" fill="url(#dvPulse)" opacity="0.7" class="dv-run2"/>
+  </g>
+  <g transform="translate(600,20)">
+    <rect x="-15" y="-11" width="30" height="22" rx="5" fill="#05070f" stroke="#8a5cff" stroke-opacity="0.6"/>
+    <path d="M0 -7 L7 0 L0 7 L-7 0 Z" fill="#00f5ff" fill-opacity="0.9" filter="url(#dvGlow)"/>
+    <path d="M0 -3.2 L3.2 0 L0 3.2 L-3.2 0 Z" fill="#05070f"/>
+  </g>
+  <g fill="#00f5ff" opacity="0.5">
+    <circle cx="560" cy="20" r="1.4"/><circle cx="640" cy="20" r="1.4"/>
+  </g>
+  <g fill="#ff2bd6" opacity="0.45">
+    <circle cx="520" cy="20" r="1.1"/><circle cx="680" cy="20" r="1.1"/>
+  </g>
+</svg>
